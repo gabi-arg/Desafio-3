@@ -1,0 +1,190 @@
+@import url('https://fonts.googleapis.com/css2?family=Overpass:wght@300;400;700&display=swap');
+:root{
+/*Colors=
+Primary*/
+--Orange:#FB7312; 
+/*Neutral*/
+--White: #ffffff;
+--Light-Grey: #959EAB;
+--Medium-Grey: #7B8697;
+--Dark-Blue: #252D36;
+--Very-Dark-Blue: #111316;
+
+}
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    position: relative;
+    
+}
+.main-container{
+    width: 26rem ;
+    height: 41.5rem;
+    background-color: var(--Very-Dark-Blue);
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    top: 40%;
+    left: 20%;
+    
+}
+.container{
+    
+    width: 23rem ;
+    height: auto;
+    background-image: linear-gradient(
+        15deg,
+        hsl(216deg 13% 8%) 0%,
+        hsl(210deg 14% 9%) 7%,
+        hsl(214deg 14% 10%) 14%,
+        hsl(210deg 14% 11%) 21%,
+        hsl(216deg 16% 12%) 28%,
+        hsl(213deg 16% 13%) 35%,
+        hsl(215deg 16% 15%) 43%,
+        hsl(214deg 18% 16%) 53%,
+        hsl(212deg 18% 17%) 67%,
+        hsl(212deg 19% 18%) 100%
+      );
+    
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    border-radius: 2rem;
+    padding: 2rem 0;
+   
+}
+.container-logo{
+    width: 3rem;
+    height: 3rem;
+    border: 1px solid var(--Dark-Blue);
+    border-radius: 50%;
+    margin-left: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:#29313a
+    
+}
+.container-text{
+    width: 80%;
+    height: auto;
+    text-align: left;
+    color: var(--White);
+    padding-left: 2rem;
+}
+.container-text h2 {
+    font-size: 1.8rem;
+    font-weight: 700;
+    font-family: 'Overpass', sans-serif;
+}
+.container-text p {
+    font-size: 0.8rem;
+    font-weight: 300;
+    font-family: 'Overpass', sans-serif;
+
+}
+.container-btn-number{
+    display: flex;
+    justify-content: space-around;
+    padding: 2rem;
+    
+
+}
+.container-btn-number button {
+    width: 3rem;
+    height: 3rem;
+    border-radius: 50%;
+    background-color: var(--Dark-Blue);
+    border: none;
+    color: var(--Light-Grey);
+    cursor: pointer;
+}
+.container-btn-number button:hover{
+    background-color: var(--Medium-Grey);
+}
+.container-btn-submit button{
+    width: 80%;
+    margin-left: 2.2rem;
+    height: 2.2rem;
+    color: var(--White);
+    background-color: var(--Orange);
+    border-radius: 1rem;
+    border: none;
+    font-size: 0.8rem;
+    font-family: 'Overpass', sans-serif;
+    letter-spacing: 2px;
+    padding: 0.5rem;
+    cursor: pointer;
+
+}
+.container-thanks{
+    width: 24rem ;
+    height: auto;
+    background-image: linear-gradient(
+        15deg,
+        hsl(216deg 13% 8%) 0%,
+        hsl(210deg 14% 9%) 7%,
+        hsl(214deg 14% 10%) 14%,
+        hsl(210deg 14% 11%) 21%,
+        hsl(216deg 16% 12%) 28%,
+        hsl(213deg 16% 13%) 35%,
+        hsl(215deg 16% 15%) 43%,
+        hsl(214deg 18% 16%) 53%,
+        hsl(212deg 18% 17%) 67%,
+        hsl(212deg 19% 18%) 100%
+    );
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 2rem;
+    padding-top: 2rem;
+    
+}
+.container-thanks-img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 2rem;
+}
+.container-thanks-selection{
+    color: var(--Orange);
+    border:none;
+    background-color: #29313a;
+    padding: 0 1rem;
+    margin-bottom: 1rem;
+    border-radius: 2rem;
+
+}
+.container-thanks-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-family: 'Overpass', sans-serif;
+    padding: 1rem 1rem;
+    text-align: center;
+}
+.container-thanks-text h2{
+    font-size: 2rem;
+    font-weight: 700;
+    color: var(--White);
+
+}
+.container-thanks-text p{
+    font-size: 1rem;
+    font-weight: 300;
+    color: var(--Light-Grey);
+}
+
+.attribution { 
+    margin-top: 5rem;
+    font-size: 11px; 
+    text-align: center;
+    color: var(--White);
+ }
+.attribution a { color: hsl(228, 45%, 44%); }
+
+
